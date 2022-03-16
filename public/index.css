@@ -1,3 +1,31 @@
+body{
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+#trip{
+    display: flex;
+    border: black solid;
+    border-radius: 20px;
+    width: 60%;
+    height: 80vh;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+#trip-info{
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px black solid; */
+}
+
 h1{
-    color: blue;
+    background-color: red;
+    width: 100%
 }
