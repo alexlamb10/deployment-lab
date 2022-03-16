@@ -1,13 +1,13 @@
 body{
-    background-color: lightgrey;
+    background-color: lightgray;
     display: flex;
     justify-content: center;
     align-items: center;  
 }
 
 #trip{
+    margin-top: 5vh;
     display: flex;
-    border: black solid;
     border-radius: 20px;
     width: 60%;
     height: 80vh;
@@ -26,13 +26,15 @@ body{
 #trip-info{
     display: flex;
     flex-direction: column;
-    height: 60%;
+    height: 70%;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: space-around;
-    /* border: 1px black solid; */
+    color: #42687c
+    
+} 
+
+#submit-button {
+    background-color: rgba(66, 104, 124, .5);
 }
 
-h1{
-    background-color: red;
-    width: 100%
-}
