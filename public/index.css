@@ -16,9 +16,14 @@ body{
     height: 80vh;
     justify-content: space-around;
     align-items: center;
-    background-color: white;
+    background-image: url("efate.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
+#link {
+    color: black;
+}
 
 
 #mtYasur {
@@ -32,12 +37,11 @@ body{
     height: 70%;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: space-around;
-    color: #42687c
-    
+    justify-content: space-around;    
 } 
 
 #submit-button {
-    background-color: rgba(66, 104, 124, .5);
+    background-color: rgb(66, 104, 124);
+    color: white;
 }
 
