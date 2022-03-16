@@ -4,6 +4,9 @@ body{
     justify-content: center;
     align-items: center;  
 }
+#slideshow{
+    width: 40%;
+}
 
 #trip{
     margin-top: 5vh;
@@ -19,7 +22,7 @@ body{
 
 
 #mtYasur {
-    width: 40%;
+    width: 100%;
     border-radius: 10px;
 }
 

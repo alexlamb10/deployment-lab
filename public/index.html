@@ -10,8 +10,11 @@
 </head>
 <body>
     <section id="trip">
-            
-                <img src="MtYasur.jpg" alt="Volcano" id="mtYasur" >
+            <div id="slideshow">
+                <img src="MtYasur.jpg" alt="Volcano" id="mtYasur" class="myPics">
+                <img src="MtYasur1.jpg" alt="Volcano" id="mtYasur" class="myPics">
+                <img src="MtYasur2.jpg" alt="Volcano" id="mtYasur" class="myPics">
+            </div>
             
             <div id="trip-info">
                 <h1>Mt Yasur</h1>
@@ -24,6 +27,22 @@
                 <input type="text" id="email" placeholder="Your email">
                 <button id="submit-button">Submit</button>
             </div>
+            <script>
+                let myIndex = 0;
+                carousel()
+
+                function carousel(){
+                    let pics = document.getElementsByClassName("myPics");
+                    for(let i = 0; i < pics.length; i++){
+                        pics[i].style.display = "none";
+                    }
+                    myIndex++
+                    if(myIndex > pics.length){myIndex = 1}
+                    pics[myIndex-1].style.display = "block";
+                    setTimeout(carousel, 3000) 
+                }
+
+            </script>
     </section>
 </body>
 </html>
