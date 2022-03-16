@@ -16,6 +16,13 @@ body{
     background-color: white;
 }
 
+
+
+#mtYasur {
+    width: 40%;
+    border-radius: 10px;
+}
+
 #trip-info{
     display: flex;
     flex-direction: column;
